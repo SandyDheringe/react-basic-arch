@@ -2,7 +2,7 @@
 
 This project demonstrate the basic react app architecture
 
-1. It helps you to setup enviroment (sandbox, staging)
+1. It helps you to setup enviroment (sandbox, prod)
 
 2. It also helps you to customiza the enviroment specific setting.
 
