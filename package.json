@@ -6,16 +6,28 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "i18next": "^20.1.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-i18next": "^11.8.12",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "typescript": "^4.2.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=5454 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-sandbox": "set PORT=5454 && set REACT_APP_ENVIRONMENT=sandbox && react-scripts start",
+    "start-prod": "set PORT=5454 && set REACT_APP_ENVIRONMENT=production && react-scripts start",
+    "build-sandbox": "set REACT_APP_ENVIRONMENT=sandbox && react-scripts build",
+    "build-prod": "set REACT_APP_ENVIRONMENT=production && react-scripts build",
+    "start-sandbox-mac": "PORT=5454 REACT_APP_ENVIRONMENT=sandbox react-scripts start",
+    "start-prod-mac": "PORT=5454 REACT_APP_ENVIRONMENT=production react-scripts start"
   },
   "eslintConfig": {
     "extends": [

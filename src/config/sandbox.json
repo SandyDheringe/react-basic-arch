@@ -1,0 +1,5 @@
+{
+  "name" : "sandbox",
+  "debuggable":true,
+  "baseUrl": "https://sandbox.myapp.io"
+}

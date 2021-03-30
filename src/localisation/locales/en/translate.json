@@ -1,0 +1,11 @@
+{
+    "translations": {
+        "common": {
+            "titleLoadingText": "Loading...",
+            "titleSrNo": "Sr. No"
+        },
+        "onboarding": {
+            "titleLogin": "Login Window"
+        }
+    }
+}
